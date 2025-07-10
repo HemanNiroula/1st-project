@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+      }
+      .container {
+        padding: 10px;
+        width: 100%;
+        background-color: black;
+        height: 140px;
+        display: grid;
+        grid-template-rows: repeat(4, 150px);
+        grid-template-columns: repeat(4, 150px);
+        grid-gap: 10px;
+        justify-content: center;
+      }
+      .box {
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box iteam =1">1</div>
+      <div class="box iteam =2">2</div>
+      <div class="box iteam =3">3</div>
+      <div class="box iteam =4">4</div>
+      <div class="box iteam =4">5</div>
+      <div class="box iteam =4">6</div>
+      <div class="box iteam =4">7</div>
+      <div class="box iteam =4">8</div>
+      <div class="box iteam =4">9</div>
+      <div class="box iteam =4">10</div>
+      <div class="box iteam =4">11</div>
+      <div class="box iteam =4">12</div>
+    </div>
+  </body>
+</html>
